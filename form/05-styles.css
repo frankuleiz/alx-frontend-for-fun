@@ -660,8 +660,8 @@
     font-variant: small-caps;
   }
 
-  /* Basic form
-    ============================= */
+/* Basic form
+============================= */
 
   form {
     display: flex;
@@ -716,7 +716,7 @@
     font-size: var(--font-size-small);
   }
 
-  /* Form group
+/* Form group
 ============================= */
 
   .form-group {
@@ -730,7 +730,7 @@
     transition: 0.3s;
   }
 
-  /* Form field
+/* Form field
 ============================= */
 
   .form-field-container {
@@ -741,7 +741,7 @@
     font-style: normal;
   }
 
-  /* Form help
+/* Form help
 ============================= */
 
   .form-group .form-help {
