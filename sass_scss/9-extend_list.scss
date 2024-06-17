@@ -1,0 +1,15 @@
+/* Assigns values to all classes and the extended ones */
+
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @extend .info;
+  color: #00FF00;
+}
+
+.warning {
+  @extend .info;
+  color: #FF0000;
+}
