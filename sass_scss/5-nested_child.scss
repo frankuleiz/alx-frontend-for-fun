@@ -1,0 +1,8 @@
+/* Assigns color to nested tags and the first child */
+
+body {
+  color: #3D3D3D;
+  > .red {
+    color: #FF0000;
+  }
+}
