@@ -1,0 +1,14 @@
+/* Assings margin value using mixin */
+
+@mixin marginValue($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+body {
+  @include marginValue(10px);
+}
+
+div {
+  @include marginValue(15px);
+}
